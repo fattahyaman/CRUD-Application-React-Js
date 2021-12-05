@@ -1,7 +1,18 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This applicatio is created by using React Js and material ui and for the updaing data using json server to fetch and add data in the database.
+To run the project 
+    
+    => git clone https://github.com/fattahyaman/CRUD-Application-React-Js.git
+    => npm install
+    => npm run 
+    =>  For the json server to start => npm run json-server
+    or simple make some changes in package json file which is below
+     "json -server": "json-server --watch src/Database/db.json --host 127.0.0.1 --port 3003",
+     "dev": "concurrently \"npm start\" \"npm run json-server\"",
+    after that 
+    => npm run dev
+    
 ## Available Scripts
 
 In the project directory, you can run:
